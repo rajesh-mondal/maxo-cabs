@@ -16,4 +16,33 @@ html{
 /* Header */
 header{
     background-color: #23393d;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+}
+.menu ul li{
+    padding: 0 10px;
+}
+.menu ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff !important;
+    transition: 0.4s;
+}
+.menu ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff !important;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color: #f0c540 !important;
+}
+form li a span{
+    color: #f0c540 !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+form li a{
+    color: #fff !important;
 }
