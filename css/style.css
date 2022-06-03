@@ -12,3 +12,8 @@ html{
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+
+/* Header */
+header{
+    background-color: #23393d;
+}
