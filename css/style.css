@@ -112,3 +112,6 @@ form li a{
   #conditional-part{
     display: none;
   }
+  .card{
+    background-color: #f0c540;
+  }
