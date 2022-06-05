@@ -48,6 +48,13 @@ form li a{
 }
 
 /* Banner Section  */
+.banner{
+  background-image: url(../images/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
 .custom-check {
     display: block;
     position: relative;
