@@ -55,6 +55,18 @@ form li a{
   background-repeat: no-repeat;
   padding: 80px 0;
 }
+.btn-vehicle{
+  padding: 10px 22px;
+  font-weight: 600;
+  background-color: #23393d;
+  color: #fff;
+  margin-top: 20px;
+  transition: ease-in 0.4s;
+}
+.btn-vehicle:hover{
+  background-color: #23393dd0;
+  color: #fff;
+}
 .custom-check {
     display: block;
     position: relative;
