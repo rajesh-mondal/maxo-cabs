@@ -109,3 +109,6 @@ form li a{
     outline: 0;
     box-shadow: unset;
   }
+  #conditional-part{
+    display: none;
+  }

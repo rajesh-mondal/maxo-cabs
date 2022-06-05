@@ -83,7 +83,7 @@
                                         </div>
                                         <!-- Checkbox -->
                                         <label class="custom-check">Return to the same location
-                                            <input type="checkbox" checked="checked">
+                                            <input id="more-info" type="checkbox" checked="checked">
                                             <span class="checkmark"></span>
                                         </label>
                                         <div class="input-group">
@@ -95,7 +95,7 @@
                                     </form>
                                     <h5 class="card-title text-uppercase">Return</h5>
                                     <form action="">
-                                        <div class="form-group mb-3">
+                                        <div class="form-group mb-3" id="conditional-part">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="my-addon"><span class="px-2"><i class="fas fa-map-marker-alt"></i></span></span>
@@ -114,7 +114,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="my-addon"><span class="px-2"><i class="fas fa-calendar-alt"></i></span></span>
                                             </div>
-                                            <input id="filter-date" class="form-control" type="text" name="" placeholder="Pickup Date">
+                                            <input id="filter-date" class="form-control" type="text" name="" placeholder="Return Date">
                                         </div>
                                     </form>
                                 </div>
@@ -133,6 +133,16 @@
     <script src="js/jquery.datetimepicker.full.min.js"></script>
     <script src="js/script.js"></script>
     <script>
+        // Return Place
+        $('#more-info').change(function(){
+            if(this.checked !=true){
+                $('#conditional-part').hide();
+            }
+            else{
+                $('#conditional-part').show();
+            }
+        });
+
         jQuery('#filter-date').datetimepicker();
     </script>
 </body>
