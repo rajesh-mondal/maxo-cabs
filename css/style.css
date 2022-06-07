@@ -132,3 +132,36 @@ form li a{
   .card{
     background-color: #f0c540;
   }
+
+  /* Features CSS */
+  .choose{
+    padding: 80px 0;
+  }
+  .common-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #23393d;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0c540;
+    transition: 0.4s;
+  }
+  .icon i{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .content{
+    padding: 0 10px;
+  }
+  .content h1{
+    font-size: 18px;
+    color: #23393d;
+  }
+  .content p{
+    font-size: 14px;
+    color: #6E6E6E;
+  }
