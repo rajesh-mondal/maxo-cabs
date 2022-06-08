@@ -68,103 +68,103 @@ form li a{
   color: #fff;
 }
 .custom-check {
-    display: block;
-    position: relative;
-    padding-left: 30px;
-    cursor: pointer;
-    /* font-size: 14px; */
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  .custom-check input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    background-color: #ccc;
-  }
-  .custom-check:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  .custom-check input:checked ~ .checkmark {
-    background-color: #23393d;
-  }
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  .custom-check input:checked ~ .checkmark:after {
-    display: block;
-  }
-  .custom-check .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  input:focus{
-    color: #495057;
-    background-color: #fff;
-    border: none;
-    border-color: unset;
-    outline: 0;
-    box-shadow: unset;
-  }
-  #conditional-part{
-    display: none;
-  }
-  .card{
-    background-color: #f0c540;
-  }
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  /* font-size: 14px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.custom-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #ccc;
+}
+.custom-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.custom-check input:checked ~ .checkmark {
+  background-color: #23393d;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.custom-check input:checked ~ .checkmark:after {
+  display: block;
+}
+.custom-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input:focus{
+  color: #495057;
+  background-color: #fff;
+  border: none;
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+}
+#conditional-part{
+  display: none;
+}
+.card{
+  background-color: #f0c540;
+}
 
-  /* Features CSS */
-  .choose{
-    padding: 80px 0;
-  }
-  .common-title{
-    font-size: 30px;
-    font-weight: 700;
-    color: #23393d;
-  }
-  .icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #f0c540;
-    transition: 0.4s;
-  }
-  .icon i{
-    color: #fff;
-    font-size: 30px;
-    margin-top: 10px;
-  }
-  .content{
-    padding: 0 10px;
-  }
-  .content h1{
-    font-size: 18px;
-    color: #23393d;
-  }
-  .content p{
-    font-size: 14px;
-    color: #6E6E6E;
-  }
+/* Features CSS */
+.choose{
+  padding: 80px 0;
+}
+.common-title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #23393d;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f0c540;
+  transition: 0.4s;
+}
+.icon i{
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.content{
+  padding: 0 10px;
+}
+.content h1{
+  font-size: 18px;
+  color: #23393d;
+}
+.content p{
+  font-size: 14px;
+  color: #6E6E6E;
+}
 
 /* Vehicle Categories */
 .vehicle{
