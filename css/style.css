@@ -178,3 +178,28 @@ form li a{
   background-color: #fff;
   padding: 25px 15px;
 }
+.vehicle-details h3{
+  font-size: 22px;
+  font-weight: 700;
+  color: #23393d;
+}
+.vehicle-details p{
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.vehicle-price{
+  background-color: #f0c540;
+  color: #fff;
+  padding: 5px 10px;
+}
+.vehicle-price p{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.vehicle-price h2{
+  font-size: 22px;
+}
+.vehicle-price .day{
+  font-size: 14px;
+}
