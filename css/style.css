@@ -176,7 +176,7 @@ form li a{
 }
 .vehicle-item{
   background-color: #fff;
-  padding: 25px 15px;
+  padding: 25px;
 }
 .vehicle-details h3{
   font-size: 22px;
@@ -202,4 +202,12 @@ form li a{
 }
 .vehicle-price .day{
   font-size: 14px;
+}
+.vehicle ul li{
+  margin-bottom: 10px;
+  list-style: none;
+}
+.vehicle ul li i{
+  color: #f0c540;
+  font-size: 18px;
 }
