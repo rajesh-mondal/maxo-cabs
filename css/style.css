@@ -176,7 +176,7 @@ input:focus{
 }
 .vehicle-item{
   background-color: #fff;
-  padding: 25px;
+  padding: 30px;
   transition: ease-in 0.4s;
 }
 .vehicle-details h3{
