@@ -168,7 +168,7 @@ input:focus{
 
 /* Vehicle Categories */
 .vehicle{
-  padding: 80px 0;
+  padding: 100px 0;
   background-color: #23393d;
 }
 .common-title1{
@@ -177,6 +177,7 @@ input:focus{
 .vehicle-item{
   background-color: #fff;
   padding: 25px;
+  transition: ease-in 0.4s;
 }
 .vehicle-details h3{
   font-size: 22px;
@@ -192,6 +193,7 @@ input:focus{
   background-color: #f0c540;
   color: #fff;
   padding: 5px 10px;
+  transition: ease-in 0.4s;
 }
 .vehicle-price p{
   font-size: 14px;
@@ -203,11 +205,21 @@ input:focus{
 .vehicle-price .day{
   font-size: 14px;
 }
-.vehicle ul li{
+.vehicle-icon ul li{
   margin-bottom: 10px;
   list-style: none;
 }
-.vehicle ul li i{
+.vehicle-icon ul li i{
   color: #f0c540;
   font-size: 18px;
+  transition: ease-in 0.4s;
+}
+.vehicle-item:hover{
+  background-color: #f0c540;
+}
+.vehicle-item:hover .vehicle-price{
+  background-color: #23393d;
+}
+.vehicle-item:hover .vehicle-icon ul li i{
+  color: #23393d;
 }
