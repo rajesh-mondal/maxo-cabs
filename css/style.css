@@ -255,4 +255,5 @@ input:focus{
 }
 .carousel-indicators .active{
   background-color: #f0c540;
+  border: none;
 }
