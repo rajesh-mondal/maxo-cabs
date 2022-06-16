@@ -223,3 +223,36 @@ input:focus{
 .vehicle-item:hover .vehicle-icon ul li i{
   color: #23393d;
 }
+
+/* Testimonial CSS */
+.testimonial{
+  padding: 80px 0 120px 0;
+}
+.testimonial-content{
+  padding: 20px;
+  border: 1px dashed #666;
+}
+.testimonial-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.testimonial-img img{
+  border-radius: 50%;
+}
+.carousel-indicators{
+  margin-bottom: -70px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid;
+  transition: 0.4s;
+}
+.carousel-indicators [data-bs-target]:hover{
+  background-color: #f0c540;
+}
+.carousel-indicators .active{
+  background-color: #f0c540;
+}
