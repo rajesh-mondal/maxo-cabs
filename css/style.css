@@ -257,3 +257,24 @@ input:focus{
   background-color: #f0c540;
   border: none;
 }
+/* About CSS */
+.about{
+
+  background-color: #23393d;
+}
+.about-con{
+  padding: 80px 20px 80px 100px;
+}
+.btn-company{
+  background-color: #f0c540;
+  color: #23393d;
+}
+.btn-company:hover{
+  background-color: #f0c440de;
+  color: #23393d;
+}
+.about-img{
+  background-image: url(../images/maruti-suzuki-baleno-image-14680.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
