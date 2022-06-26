@@ -278,3 +278,26 @@ input:focus{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Feedback Section */
+.feedback{
+  padding: 40px 0;
+  background-color: #f0c540;
+  color: #23393d;
+}
+.content1{
+  font-weight: 700;
+  font-size: 24px;
+  color: #273f44;
+}
+.content1 i{
+  color: #fff;
+}
+.btn-feedback{
+  border: 2px solid;
+  color: #23393d;
+  font-size: 14px;
+  background-color: transparent;
+  font-weight: 500;
+  transition: ease-in 0.4s;
+}
