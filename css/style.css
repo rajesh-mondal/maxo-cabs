@@ -307,6 +307,9 @@ input:focus{
   padding: 80px 0;
   background-color: #23393d;
 }
+.footer-content{
+  font-size: 14px;
+}
 .footer ul li a{
   text-decoration: none;
   color: #fff;
@@ -316,5 +319,19 @@ input:focus{
   transition: 0.4s;
 }
 .footer ul li a:hover{
+  color: #dfab0f;
+}
+.footer ul li i{
+  font-size: 30px;
   color: #f0c540;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: 0.4s;
+}
+.footer ul li i:hover{
+  color: #dfab0f;
+}
+.copyright{
+  color: #888;
+  font-size: 13px;
 }
